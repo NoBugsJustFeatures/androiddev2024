@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/design_default_color_on_primary">
+
+    <!-- Weather Icon -->
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cloud"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Weather Icon" />
+
+    <!-- Temperature Text -->
+    <TextView
+        android:id="@+id/temperature_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12°C"
+        android:textSize="32sp"
+        android:layout_below="@id/weather_icon"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp" />
+
+    <!-- Weather Condition Text -->
+    <TextView
+        android:id="@+id/weather_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloudy"
+        android:textSize="18sp"
+        android:layout_below="@id/temperature_text"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp" />
+</RelativeLayout>
