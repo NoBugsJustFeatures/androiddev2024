@@ -12,5 +12,5 @@ Student Info
 
 * Name: Nguyen Tri Anh Vu
 * ID: 22BI13478
-* Group ID: 10
+* Group ID: 9
 * Project Name: Flights Info 
